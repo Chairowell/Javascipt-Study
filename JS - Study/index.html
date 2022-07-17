@@ -401,13 +401,62 @@
                 
 
             %
-                %取余数
+                %取余数,求模运算
                 7 % 3 =1
 
     </code></pre>
 
-    <pre><code class="language-javascript"></code></pre>
-    <pre><code class="language-javascript"></code></pre>
+    <pre><code class="language-javascript">
+        P16
+
+        一元运算符，只需要一个操作数
+        对于Number类型
+        + 正号，不会对数字产生任何影响
+        - 负号，可以对数字符号进行取反
+        对于非Number类型
+        他会先转换成Number类型再进行Number类型的处理
+        eg：a = true ; a = -a ---> a = -1 typeof = Number
+        使用+正号来转换非number类型--->number类型
+
+    </code></pre>
+    <script>
+        var a = true;
+        a = -a;
+        document.write("a ="+a+"<br>");
+        document.write(typeof a+"<br>");
+        a = 1 + "2" + 3
+        document.write("a ="+a+"<br>");
+        a = 1 + + "2" + 3;
+        document.write("a ="+a+"<br>");
+
+    </script>
+    <pre><code class="language-javascript">
+        P17 
+        
+        自增和自减
+            
+            自增++
+                通过自增可以使变量在自身的基础上增加1
+                对于一个变量自增以后，原变量的值会立即自增1
+                自增分成两种:后++(a++) 和 前++(++a )
+                无论是a++还是++a,都会立即使 原变量 的值自增1
+                不同的是a++和++a的值不同
+                a++的值等于原变量的值(自增前的值)
+                ++a的值等于原变量新值(自增后的值)
+                
+        
+    </code></pre>
+    <script>
+        var a = 1;
+        a++ ;
+        document.write("a = " a + "<br>");
+        document.write("a++ = " a++ + "<br>");
+        ++a;
+        document.write("a = " a + "<br>");
+        document.write("++a = " ++a + "<br>");
+
+
+    </script>
     <pre><code class="language-javascript"></code></pre>
     <pre><code class="language-javascript"></code></pre>
     <pre><code class="language-javascript"></code></pre>

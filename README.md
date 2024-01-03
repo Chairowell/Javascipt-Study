@@ -2,7 +2,6 @@
 ###### This hub is used to record and collect my JavaScript learning and development
 
 ##### 有问题的欢迎在issues里提
-##### Web内卷学习小组 - Q群：646312840（学生党不常在线请多包涵(。・∀・)ノ）
 
 ### 目录解释
 ### JS - Study
